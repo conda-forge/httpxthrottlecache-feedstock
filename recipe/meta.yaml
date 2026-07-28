@@ -1,5 +1,5 @@
 {% set name = "httpxthrottlecache" %}
-{% set version = "0.3.5" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/httpxthrottlecache-{{ version }}.tar.gz
-  sha256: eda3611b9fcbf1e2046191695fb92855f73fc333a7c040d3660aac11b9a60c1f
+  sha256: 927afe6ae01af71d058dfc7b6feec8e2a3ba93a2c27736d66ad97b40122079bb
 
 build:
   noarch: python
